@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx:
+    container_name: nginxFIAP
+    image: nginx:latest
+    ports: 
+      - 85:80
